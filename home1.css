@@ -51,7 +51,7 @@ h2{
     justify-content: center;
     vertical-align: middle;
     text-align: center; 
-    gap:5px;
+    gap:16px;
     
     p {
         margin:50px;
@@ -63,12 +63,14 @@ h2{
     }
 }
 .section img{
+
     width: 600px;
     height: 400px;
     margin-top:150px;
     margin-bottom:150px;
     box-shadow: 3px 3px 3px 3px rgb(124, 120, 76); 
 }
+
 div{
     padding: 5px;
 }
@@ -110,11 +112,11 @@ section#section4{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin:40px;
+    margin:50px;
 }
 .card {
 
-   margin: 50px;
+   margin: 30px;
    padding: 8px 20px;
    border: 10px solid rgb(106, 106, 38);
    border-radius: 20px;
