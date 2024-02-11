@@ -126,6 +126,10 @@ nav a:hover, .active
     display: flex;
     flex-direction: column;
    }
+   section{
+    display: grid;
+    grid-column: auto;
+   }
 }
 
  
@@ -138,12 +142,6 @@ nav .logo a {
    font-weight: 600;
    color: #e06785;
    transition: 0.5s;
- }
-
- 
- .section-home {
-   margin:0;
-   margin-bottom: 30%;
  }
  
  .section__container {
@@ -497,9 +495,6 @@ h2{
 
 /* ----- project----- */
 
-.section-projects{
-  margin-bottom: 4rem;
-}
 .project-container{
   display: grid ;
   grid-template-columns: repeat(2, 1fr);

@@ -135,7 +135,8 @@ section#section4{
 }
 
 .endimg{
-    background-image: url(pictures/end.jpg);
+    
+    background-image: url(../pictures/end.jpg);
     background-position: center center;
     background-size: cover;  text-align: center;
     text-align: left;
